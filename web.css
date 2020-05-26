@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"
+        type="text/css"
+        href="index_screen.css">  
+  
+        <meta charset="UTF-8">
+        <title>web</title>
+</head>
+<style>
+img 
+{
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index: -1;
+
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  position: absolute;
+  left: 600px;
+  top: 60px;
+}
+
+h1.a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  border-radius: 50%;
+}
+
+body {
+    
+  background-image: url('photo1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+
+
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+
+  
+<body>
+
+  <h1 class="a">Цахим хичээл</h1>
+  
+  <img src="logo.jpg" alt="Paris" width="150" height="150">
+      
+    <audio controls>
+        <source src="danceMonkey.ogg" type="audio/ogg">
+        <source src="danceMonkey.mp3" type="audio/mpeg">
+      </audio>
+
+<h2 style="background-color:Orange;">HICHEEL.MN</h2>
+<div class="navbar">
+  
+  <svg width="400" height="180">
+    <rect x="50" y="20" rx="20" ry Sor="20" width="150" height="150" style="fill:blue;stroke:pink;stroke-width:5;opacity:0.5" />
+  </svg>
+  <svg width="400" height="180">
+    <rect x="50" y="20" width="150" height="150"
+    style="fill:blue;stroke:pink;stroke-width:5;opacity:0.5" />
+  </svg>
+  
+  <a href="about" target="_blank">Бидний тухай</a>
+<!-- <a href="#about" class="active">Бидний тухай</a> -->
+  
+    <a href="#class">Бага анги</a>
+    <a href="#class">Дунд анги</a>
+    <a href="#class">Ахлах анги</a>
+  </div>
+</body>
+</html>
